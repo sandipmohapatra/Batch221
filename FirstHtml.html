@@ -1,10 +1,16 @@
 <html>
-<title>This is my first Htmp page</title>
+<title>This is my first Html page</title>
 <body bgcolor=cyan>
 <h2><center>This is Student Registration Page</center></h2><hr>
+<form action="second.jsp">  <!-- frontend is connected with middleware --> 
 <table>
-<tr><td>Enter your name<td><input type=text name=t1 size=20></tr>
-
+<tr><td>Enter your name<td><input type=text name=t1 size=20 required></tr>
+<tr><td>Enter your email<td><input type=email name=t2 size=20 required></tr>
+<tr><td>Enter your phone no<td><input type=number name=t3 size=20 required></tr>
+<tr><td>Enter your DOB<td><input type=date name=t4 size=20 required></tr>
+<tr><td>Enter your Address<td><textarea name=t5 rows=5 cols=20 required></textarea></tr>
+<tr><td><td><input type=submit value=submit></tr>
 </table>
+</form>
 </body>
 </html>
