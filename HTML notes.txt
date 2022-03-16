@@ -1,0 +1,36 @@
+HTML :- hypertext markup language.
+-----------------------------------------------------
+It is use to create webpages.we have to save the file with <.html> extention.
+we have html tags .we have to open the tag and close the tag when the usage is completed.
+It is user friendly and not case-sensitive.
+-----------------------------------------------------
+tags:-
+1)<h1> to <h6>  :- it is heading tag.
+2)<table> :- it is to create a table with rows and columns.
+3)<th>:- Table head.The letters will be in bold.
+4)<tr>:- table row 
+5)<td>:- Table division.
+------------------------------------------------------------------
+file:///C:/Users/sandip/Desktop/Batch%20221/second.jsp?t1=sandip&t2=sandip%40gmail.com&t3=7760213015&t4=2022-03-01&t5=yelhanka%0D%0ABangalore%0D%0A
+-----------------------------------------------------------
+<form action=second.jsp>:- is used to carry the data from frontend to middlleware.
+<body bgcolor=cyan>:- It will set the body of the html page to cyan.
+<input type=text>
+<input type=number>
+<input type=date>
+<input type=password>
+-----------------------------------------------------------------------
+required :- it is use to validate.It will not take empty values.
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
