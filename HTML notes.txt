@@ -161,6 +161,156 @@ margin-left:150px;
 </body>
 </html>
 -----------------------------------------------------------------------
+<html>
+<style>
+div
+{
+border:1px solid black;
+background-color:cyan;
+margin-top:100px 200px 120px 150px;
+}
+</style>
+<body>
+<div>
+<h1>This is an example of div tag</h1>
+<p> This is an example of div tag</p>
+<p> This is an example of div tag</p>
+<p> This is an example of div tag</p>
+</div>
+</body>
+</html>
+-----------------------------------------------------------------------
+div
+{
+margin-top:100px 200px 120px 150px;
+}
+
+top=100px;right=200px;bottom=120px;left=150px;
+--------------------------------------------------------------------------------------------
+div
+{
+margin-top:100px 120px 150px;
+}
+
+top=100px;right and left=120px;bottom=150px;
+-----------------------------------------------------------------------------------------------------
+div
+{
+margin-top:100px 150px;
+}
+
+top and bottom=100px;right and left=150px;
+---------------------------------------------------------------------------------
+div
+{
+margin-top:100px;
+}
+
+all four are (top;right;left;bottom)=100px;
+----------------------------------------------------------------------------
+CSS padding:-
+-----------------------------
+** margin is to leave space outside the element.
+padding is use to leave space inside the element.
+------------------------------------------------------------------------------
+padding-top
+padding-right
+padding-bottom
+padding-left
+-------------------------------------------
+div
+{
+border:1px solid black;
+background-color:cyan;
+margin:100px;
+padding-top:10px;
+padding-right:140px;
+padding-bottom:100px;
+padding-left:120px;
+}
+------------------------------------------------------------
+div
+{
+border:1px solid black;
+background-color:cyan;
+margin:100px;
+padding:100px 140px 100px 120px;
+}
+------------------------------------------------------------
+div
+{
+border:1px solid black;
+background-color:cyan;
+margin:100px;
+padding:100px 100px 120px;
+}
+-------------------------------------------------------------
+div
+{
+border:1px solid black;
+background-color:cyan;
+margin:100px;
+padding:100px 140px;
+}
+--------------------------------------------------
+div
+{
+border:1px solid black;
+background-color:cyan;
+margin:100px;
+padding:100px;
+}
+---------------------------------------------------
+id and class
+-------------------
+id is used for giving style to single element.
+
+class is used for giving style to multiple element.
+-----------------------------------------------------------------------
+<html>
+<head>
+<style>
+#paragraph
+{
+text-align:right;
+color:magenta;
+font-family:arial;
+font-size:24px;
+} 
+</style>
+</head>
+<body>
+<p> Today's expenses </p>
+<p id=paragraph>1234.50</p>
+<p id=paragraph> 34.23</p>
+</body>
+</html>
+-------------------------------------------------------------------------------
+<html>
+<head>
+<style>
+.custom
+{
+text-align:center;
+color:red;
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<p>Example 3</p>
+<h1 class="custom">Mphasis Technologies</h1>
+<p class="custom">Hosur Road</p>
+<p class="custom">Bengaluru</p>
+</body>
+</html>
+-------------------------------------------------------------------------------
+
+
+
+
+
+
 
 
 
