@@ -22,6 +22,70 @@ file:///C:/Users/sandip/Desktop/Batch%20221/second.jsp?t1=sandip&t2=sandip%40gma
 -----------------------------------------------------------------------
 required :- it is use to validate.It will not take empty values.
 --------------------------------------------------------------------------------
+placeholder is used to give suggestions to the user what to enter. 
+---------------------------------------------------------------
+goople maps
+-------------------------
+step 1:- google.com/maps
+step 2:-share
+step 3:-embed map
+step 4:- copy the link and paste it on your html page.adjust the height and weigth.
+--------------------------------------------------------------------------------------------------------------------
+
+Assignment -1
+-----------------------------------------------------------
+create a college website with images
+-----------------------------------------------------------
+1)registration,login
+2)contact us
+3)courses available and exam date
+4)feedback
+5)timetable
+-------------------------------------------------------------------------------------------------------------------------
+CSS:- cascading style sheet
+-----------------------------------------
+This is use to provide style to the html page.
+There are 3 types of CSS .
+1)external css:- We can access it through out the application.
+2)internal css:- we can access it with a single page.
+3)inline css:- we can access it with the line only.
+-----------------------------------------------------------------------------------------------
+CSS is used to design/style the webpage.
+We use <style> tag for CSS.
+<html>
+<style>
+</style>
+-------------------------
+<body>
+</body>
+</html>
+----------------------------------------------------------------------------------------------
+syntax:-
+-------------
+h1
+{
+background-color:red;
+}
+--------------------------------------
+h1 is the selector.
+background-color is the property
+red is the value.
+background-color:red is called declaration.
+----------------------------------------------------------------
+we can have multiple selectors
+----------------------------------------------
+h1,h2,p      
+{
+background-color:red;
+}
+--------------------------------------------------------------------------
+external css:-
+The css file will be out side the html page.we have to access the css page inside the html page.
+In real time application we use external css.The scope/range is through out the application.
+---------------------------------------------------------------------------------------------------
+ 
+
+
 
 
 
