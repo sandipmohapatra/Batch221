@@ -305,8 +305,68 @@ font-size:20px;
 </body>
 </html>
 -------------------------------------------------------------------------------
+id example:- it is used for single element
+------------------------------------------------------------------
+<html>
+<style>
+#leftbox
+{
+border:1px solid black;
+float:left;
+background-color:red;
+width:33%;
+height:300px;
+}
+#middlebox
+{
+float:left;
+background-color:yellow;
+width:33%;
+height:300px;
+}
+#rightbox
+{
+float:left;
+background-color:red;
+width:33%;
+height:300px;
+}
+</style>
+<body>
+<div id="leftbox">
+<p>This is an example of side-by-side box</p>
+<p>This is an example of side-by-side box</p>
+<p>This is an example of side-by-side box</p>
+<p>This is an example of side-by-side box</p>
+</div>
+<div id="middlebox">
+<p>This is an example of side-by-side box</p>
+<p>This is an example of side-by-side box</p>
+<p>This is an example of side-by-side box</p>
+<p>This is an example of side-by-side box</p>
+</div>
+<div id="rightbox">
+<p>This is an example of side-by-side box</p>
+<p>This is an example of side-by-side box</p>
+<p>This is an example of side-by-side box</p>
+<p>This is an example of side-by-side box</p>
+</div>
+</body>
+</html>
+----------------------------------------------------------------------------------
+Google form
+-------------------------
+step 1:-google.com/forms
 
+step 2:- Blank
 
+step 3:-create the form
+
+step 4:-send
+
+step 5:- copy the link
+
+step 6:-reponses  +  create
 
 
 
