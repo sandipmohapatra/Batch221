@@ -12,6 +12,16 @@ if(a=="")
 alert("enter empno");
 f1.x1.focus();
 }
+else if(isNaN(a))
+{
+alert("please enter a no");
+f1.x1.focus();
+}
+else if(a==0)
+{
+alert("please enter a no not zero");
+f1.x1.focus();
+}
 else if(b=="")
 {
 alert("enter name");
@@ -25,6 +35,21 @@ f1.x3.focus();
 else if(d=="")
 {
 alert("enter phoneno");
+f1.x4.focus();
+}
+else if(d==0)
+{
+alert("enter phoneno not zero");
+f1.x4.focus();
+}
+else if(isNaN(d))
+{
+alert("enter number no characters are not allowed");
+f1.x4.focus();
+}
+else if(d.length !=10)
+{
+alert("enter phoneno 10 digits only");
 f1.x4.focus();
 }
 else if(e=="")
