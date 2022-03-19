@@ -1,0 +1,53 @@
+<html>
+<script>
+function fun()
+{
+var a=f1.x1.value; 
+var b=f1.x2.value; 
+var c=f1.x3.value; 
+var d=f1.x4.value; 
+var e=f1.x5.value; 
+if(a=="")
+{
+alert("enter empno");
+f1.x1.focus();
+}
+else if(b=="")
+{
+alert("enter name");
+f1.x2.focus();
+}
+else if(c=="")
+{
+alert("enter address");
+f1.x3.focus();
+}
+else if(d=="")
+{
+alert("enter phoneno");
+f1.x4.focus();
+}
+else if(e=="")
+{
+alert("enter email");
+f1.x5.focus();
+}
+else
+{
+f1.submit();
+}
+}
+</script>
+<body bgcolor="yellow">
+<form name="f1" action="second">
+<table>
+<tr><td>Enter empno<td><input type="text" name="x1" size=20></tr>
+<tr><td>Enter name<td><input type="text" name="x2" size=20></tr>
+<tr><td>Enter address<td><input type="text" name="x3" size=20></tr>
+<tr><td>Enter phoneno<td><input type="text" name="x4" size=20></tr>
+<tr><td>Enter email<td><input type="text" name="x5" size=20></tr>
+<tr><td><td><input type="button" value="submit" onclick=fun()></tr>
+</table>
+</form>
+</body>
+</html>
