@@ -1,0 +1,31 @@
+<html>
+<style>
+h1{background-color:#ffe4e1;
+color:#361e54;}
+</style>
+<script>
+var name=prompt("Enter your name");
+var address=prompt("Enter your address");
+var phoneno=prompt("Enter your phoneno");
+var eng=prompt("Enter your english marks");
+var phy=prompt("Enter your physics marks");
+var chem=prompt("Enter your chemistry marks");
+var bio=prompt("Enter your biology marks");
+var maths=prompt("Enter your maths marks");
+total=parseInt(eng)+parseInt(phy)+parseInt(chem)+parseInt(bio)+parseInt(maths); 
+average=total/5;
+alert("The total marks is "+total); 
+alert("The average is"+average);
+if(average>75)
+alert("first division");
+else if(average>65)
+alert("second division");
+else if(average>55)
+alert("third division");
+else
+alert("fail");
+</script>
+<body bgcolor=#cOcOcO>
+<h1><center>Welcome to Javascript</center></h1><hr>
+</body>
+</html>
