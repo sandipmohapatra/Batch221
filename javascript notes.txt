@@ -1,0 +1,52 @@
+JavaScript
+---------------------
+1)We have to save the file with .html extention.
+2)Javascript is case sensitive.
+3)It is suppported by advance browser.
+4)Javascript support Object Oriented Program.
+5)We have a datatype called var.
+6)we have lot of predefined functions and events (string function,math function)
+events are like :- mouse click,onBlur,keyboard events.
+7)We can create our own user-defined functions.
+8)We can create class,object and constructor in javascript.
+9)Javascript will make the html page dynamic.
+example:- we have conditional statements (if,else,else if,case and switch)
+10)Javascript is mostly used to validate the html page
+example:- phoneno should be 10 digits, password should be eight characters.
+-------------------------------------------------------------------------------------------------------------------------  
+CSS
+-----------------
+<html>
+<style>
+</style>
+
+<body>
+</body>
+</html>
+-------------------------------------------------------------------------------------------------------------------
+javascript
+---------------------
+<html>
+<script>
+</script>
+
+<body>
+</body>
+</html>
+-------------------------------------------------------------------------------------------------------------------
+example 1:-
+---------------------------
+<html>
+<script>
+document.write("Welcome to Javascript");
+alert("Welcome to Javascript in Mphasis");
+var name=prompt("Enter your name");
+var address=prompt("enter your address");
+alert("My name is "+name +"My address is "+address);
+</script>
+
+<body>
+<h1><center>Welcome to Javascript</center></h1>
+</body>
+</html>
+--------------------------------------------------------------------------------------------
