@@ -1,0 +1,41 @@
+<html>
+<script>
+function gtrno()
+{
+var a=parseInt(document.getElementById("no1").value);
+var b=parseInt(document.getElementById("no2").value);
+if(a>b)
+{
+no3.value=a;
+no4.value=b;
+}
+else if(b>a)
+{
+no3.value=b;
+no4.value=a;
+}
+else
+{
+no3.value="invalid";
+no4.value="invalid";
+}
+}
+
+</script>
+
+<body>
+<table>
+<tr><td>Enter a number<td><input type=text id="no1" size=20></tr> 
+<tr><td>Enter a number<td><input type=text id="no2" size=20></tr> 
+<tr><td><td><input type=submit value="compare no" onclick="gtrno()"></tr> 
+<tr><td>The greater no is :<td><input type=text id="no3" size=20></tr>
+<tr><td>The smaller no is :<td><input type=text id="no4" size=20></tr>
+</table>
+</body>
+</html>
+
+<!-- attributes of input :- type,name,id,size,placeholder,value 
+
+wap to enter 2 nos and find the greatest
+
+-->
