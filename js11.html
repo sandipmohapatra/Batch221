@@ -6,16 +6,46 @@ var a=parseInt(document.getElementById("no1").value);
 var b=parseInt(document.getElementById("no2").value);
 no3.value=a+b;
 }
+function subno()
+{
+var a=parseInt(document.getElementById("no1").value);
+var b=parseInt(document.getElementById("no2").value);
+no3.value=a-b;
+}
+function mulno()
+{
+var a=parseInt(document.getElementById("no1").value);
+var b=parseInt(document.getElementById("no2").value);
+no3.value=a*b;
+}
+function divno()
+{
+var a=parseInt(document.getElementById("no1").value);
+var b=parseInt(document.getElementById("no2").value);
+no3.value=a/b;
+}
+function squno()
+{
+var a=parseInt(document.getElementById("no1").value);
+no3.value=a*a;
+}
 </script>
 
 <body>
 <table>
-<tr><td>Enter a number<td><input type=text name=t1 id=no1 size=20 placeholder="Enter a no"></tr> 
-<tr><td>Enter a number<td><input type=text name=t2 id=no2 size=20 placeholder="Enter a no"></tr> 
-<tr><td><td><input type=submit value=add onclick="addno()"></tr> 
-<tr><td>The answer is :<td><input type=text name=t3 id=no3 size=20 placeholder="Answer is"></tr> 
+<tr><td>Enter a number<td><input type=text id="no1" size=20></tr> 
+<tr><td>Enter a number<td><input type=text id="no2" size=20></tr> 
+<tr><td><td><input type=submit value=add onclick="addno()">
+<input type=submit value=sub onclick="subno()"> 
+<input type=submit value=mul onclick="mulno()"> 
+<input type=submit value=div onclick="divno()"> 
+<input type=submit value=square onclick="squno()"></tr> 
+<tr><td>The answer is :<td><input type=text id="no3" size=20></tr> 
 </table>
 </body>
 </html>
 
-<!-- attributes of input :- type,name,id,size,placeholder -->
+<!-- attributes of input :- type,name,id,size,placeholder,value 
+
+wap to create a calculator (add,sub,mul,div,square) 
+-->
