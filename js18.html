@@ -1,0 +1,25 @@
+<html>
+<script>
+function match()
+{
+var a=fm.f1.value;
+var b=fm.f2.value;
+if(a==b)
+{
+alert("login successful");
+}
+else
+{
+alert("password must be same");
+fm.reset();
+}
+}
+</script>
+<body>
+<form name=fm onsubmit="match()">
+Enter your password :<input type=text name=f1><br>
+Re-enter Password :<input type=text name=f2> <br>
+<input type="submit">
+</form>
+</body>
+</html>
