@@ -1,0 +1,21 @@
+<html>
+<script>
+function addno()
+{
+var a=parseInt(document.getElementById("no1").value);
+var b=parseInt(document.getElementById("no2").value);
+no3.value=a+b;
+}
+</script>
+
+<body>
+<table>
+<tr><td>Enter a number<td><input type=text name=t1 id=no1 size=20 placeholder="Enter a no"></tr> 
+<tr><td>Enter a number<td><input type=text name=t2 id=no2 size=20 placeholder="Enter a no"></tr> 
+<tr><td><td><input type=submit value=add onclick="addno()"></tr> 
+<tr><td>The answer is :<td><input type=text name=t3 id=no3 size=20 placeholder="Answer is"></tr> 
+</table>
+</body>
+</html>
+
+<!-- attributes of input :- type,name,id,size,placeholder -->
