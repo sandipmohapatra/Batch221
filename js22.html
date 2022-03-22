@@ -4,14 +4,15 @@
 <script>
 function fun()
 {
-var fruits=["Banana","Orange","appple","Mango"];
-var x=document.getElementById("ex1");
+var fruits=["Banana","Orange","Apple","Mango"];
+fruits.sort();
+var x=document.getElementById("ex2");
 x.innerHTML=fruits; <!-- It is used to store the data and print it -->
 }
 </script>
 
 <body>
-<p id="ex1">Array of String</p>
+<p id="ex2">Array of String</p>
 <button onclick=fun()>Click Here</p> 
 </body>
 </html>
